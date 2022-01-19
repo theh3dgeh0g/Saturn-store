@@ -1,0 +1,19 @@
+{
+  "name": "juicy-patience-zoom-dr69i",
+  "productName": "juicy-patience-zoom-dr69i",
+  "description": "My Electron application description",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "h3ndeh0x",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "jquery": "^3.6.0",
+    "lightslider": "^1.1.6"
+  },
+  "devDependencies": {
+    "electron": "16.0.2"
+  }
+}
