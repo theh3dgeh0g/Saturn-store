@@ -29,7 +29,7 @@ After that, the launch script of the Electron framework will be launched and the
 
 
    [Visual Studio Code]: <http://code.visualstudio.com/>
-   [Electron Forge]: <http://.electronjs.org>
+   [Electron Forge]: <http://electronjs.org>
    [node.js]: <http://nodejs.org>
    [jQuery]: <http://jquery.com>
 
