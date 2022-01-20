@@ -570,6 +570,11 @@ color: #FFFFFF;
       grid-gap: 25px;
   }
 
+  @media screen and (min-width: 450px) and (max-width: 950px){
+      .soft-catalog {grid-template-columns: repeat(2, 1fr);}
+  }
+
+
   .soft-catalog a{
     height: 100%;
     width: 100%;
