@@ -189,15 +189,28 @@ body.dark .sidebar header .toggle{
     margin-top: 40px;
 }
 
-.sidebar li.search-box{
+.main-page .main-header{
+    padding: 35px 0 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.main-page .search-box{
     border-radius: 6px;
     background-color: var(--primary-color-light);
     cursor: pointer;
     transition: var(--tran-05);
     box-shadow: var(--button-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    width: 350px;
+    height: 36px;
 }
 
-.sidebar li.search-box input{
+.main-page .search-box input{
     height: 100%;
     width: 100%;
     outline: none;
@@ -326,12 +339,12 @@ body.dark .switch::before{
     left: 20px;
 }
 
-.content{
+.main-page{
     position: absolute;
     top: 0;
     top: 0;
     left: 200px;
-    height: 100vh;
+   /* height: 100vh;*/
     width: calc(100% - 200px);
     background-color: var(--body-color);
     transition: var(--tran-05);
@@ -361,7 +374,7 @@ body.dark .switch::before{
   
 }
 
-.sidebar.close ~ .content{
+.sidebar.close ~ .main-page{
     left: 78px;
     height: 100vh;
     width: calc(100% - 78px);
