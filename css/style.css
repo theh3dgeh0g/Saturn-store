@@ -251,7 +251,6 @@ body.dark .sidebar header .toggle{
 
 .sidebar li a{
     list-style: none;
-    height: 100%;
     background-color: transparent;
     display: flex;
     align-items: center;
@@ -538,6 +537,14 @@ color: #FFFFFF;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto;
       grid-gap: 25px;
+  }
+
+  .soft-catalog a{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
   }
 
   .soft-item .container{
