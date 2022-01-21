@@ -278,7 +278,7 @@ body.dark .sidebar header .toggle{
     color: var(--head-color);
 }
 
-.main-page .main-header .profile .name{
+.main-page .main-header .profile .profile-name{
     font-style: normal;
     font-weight: 600;
     font-size: 15px;
