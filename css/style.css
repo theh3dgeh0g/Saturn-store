@@ -190,7 +190,7 @@ body.dark .sidebar header .toggle{
 }
 
 .main-page .main-header{
-    padding: 35px 0 10px;
+   /* padding: 35px 0 10px;*/
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -205,7 +205,7 @@ body.dark .sidebar header .toggle{
     padding: 5px;
     position: static;
     width: 350px;
-    height: 36px;
+    height: 40px;
     left: 0px;
     top: 0px;
     background: var(--box-bg-color);
@@ -255,6 +255,11 @@ body.dark .sidebar header .toggle{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    height: 40px;
+ /*   background: var(--box-bg-color);
+    border-radius: 10px;
+    padding: 5px 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);*/
 }
 
 .main-page .main-header .profile img{
@@ -407,6 +412,7 @@ body.dark .switch::before{
     transition: var(--tran-05);
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 30px;
 }
 .content .block{
     animation: fadeInAnimation ease 0.5s;
