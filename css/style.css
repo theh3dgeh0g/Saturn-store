@@ -620,11 +620,16 @@ color: #FFFFFF;
     padding: 0px;
   }
 
+  .soft-item .container .title-1:hover{
+      color: var(--primary-color);
+  }
+  
   .soft-item .container .title-1{
     color: var(--head-color);
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
+    transition: var(--tran-03);
   }
 
   .soft-item .container .mini-desc{
