@@ -414,6 +414,11 @@ body.dark .switch::before{
     padding-right: 80px;
     padding-top: 30px;
 }
+
+.content{
+    padding-bottom: 30px;
+}
+
 .content .block{
     animation: fadeInAnimation ease 0.5s;
     animation-iteration-count: 1;
@@ -599,6 +604,7 @@ color: #FFFFFF;
       box-sizing: border-box;
       border-radius: 10px;
       padding: 10px;
+      box-shadow: var(--button-shadow);
   }
 
   .soft-item .container img{
