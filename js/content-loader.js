@@ -42,6 +42,11 @@ $(document).ready( function() {
     });
 });
 
+$(document).ready( function() {
+    $("#logout").on("click", function() {
+        $("#content").load("pages/registration.html");
+    });
+});
 /* Присвоение класса Active для активной кнопки навигации */
 $('.nav-button').click( function() {
     $('.nav-button').removeClass("active");

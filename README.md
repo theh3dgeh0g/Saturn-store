@@ -21,6 +21,7 @@ Saturn requires [Node.js](https://nodejs.org/) v10+ to run.
 Run the project in Visual Studio Code and type in the console:
 
 ```sh
+npm i -D electron@latest
 npm run start
 ```
 
