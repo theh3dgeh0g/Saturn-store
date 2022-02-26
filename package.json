@@ -1,10 +1,10 @@
 {
-  "name": "juicy-patience-zoom-dr69i",
-  "productName": "juicy-patience-zoom-dr69i",
+  "name": "Saturn App Store",
+  "productName": "Saturn App Store",
   "description": "My Electron application description",
   "keywords": [],
   "main": "./main.js",
-  "version": "1.0.0",
+  "version": "alpha 1.0.0",
   "author": "h3ndeh0x",
   "scripts": {
     "start": "electron ."
